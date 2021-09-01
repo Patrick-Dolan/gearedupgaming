@@ -59,25 +59,27 @@
     <div class="row">
       <div class="col-12 align-self-center">
         <h2>Contact Us</h2>
+        <p>If there are any questions you have please be sure to read our <a href="#" target="_blank">FAQ</a> and visit our <a href="#" target="_blank">About Us</a> page. If after you visited our FAQ and About Us page and still have questions, concerns, or requests please feel free to submit a message with the form below. We try to respond to all messages as quickly as possible but please be patient as we have a large number of daily correspondence.</p>
         <form>
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="fName">First Name:</label><br>
-              <input type="text" class="form-control" name="fName"><br>
+              <input type="text" class="form-control" name="fName" placeholder="First Name"><br>
             </div>
             <div class="form-group col-md-6">
               <label for="lName">Last Name:</label><br>
-              <input type="text" class="form-control" name="lName"><br>
+              <input type="text" class="form-control" name="lName" placeholder="Last Name"><br>
             </div>
           </div>
             <div class="form-row">
               <div class ="form-group col-md-6">
                 <label for="email">Email:</label><br>
-                <input type="email" class="form-control" name="email"><br>
+                <input type="email" class="form-control" name="email" placeholder="email@example.com"><br>
               </div>
               <div class="for-group cold-md-6">
                 <label for="messageReason">Message Reason:</label><br>
-                <select for="messageReason" class="form-control" name="messageReason">
+                <select for="messageReason" class="form-control" name="messageReason" required>
+                  <option value="placeholder">Required</option>
                   <option value="productReviewRequest">Product Review Request</option>
                   <option value="newsStory">News Story Request/Information</option>
                   <option value="businessInquiry">Business Inquiry</option>
@@ -88,6 +90,7 @@
             </div>
             <label for="message">Message:</label><br>
             <textarea value="message" class="form-control" required></textarea><br>
+            <small id="contactFormInfo" class="form-text text-muted">We will never share your information with a third party.</small><br>
             <input type="submit" for="submit">
           </div>
         </form>
