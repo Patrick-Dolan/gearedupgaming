@@ -38,7 +38,7 @@
     </nav>
     <div class="jumbotron">
       <h2>Welcome to our new online headquarters!</h2>
-      <p>Thanks for visiting our new online home; If you need to find anything specific feel free to use the search bar above or any of the navigation linkes available. If there is anything you can't find or need help with be sure to send us a message via our <a href="#">contact form</a>.</p>
+      <p>Thanks for visiting our new online home; If you need to find anything specific feel free to use the search bar above or any of the navigation links available. If there is anything you can't find or need help with be sure to send us a message via our <a href="#">contact form</a>.</p>
     </div>
     <div class="row">
       <div class="col-12">
@@ -60,7 +60,23 @@
       <div class="col-12 align-self-center">
         <h2>Contact Us</h2>
         <form>
-
+          <label for="fName">First Name:</label><br>
+          <input type="text" name="fName"><br>
+          <label for="lName">Last Name:</label><br>
+          <input type="text" name="lName"><br>
+          <label for="email">Email:</label><br>
+          <input type="email" name="email"><br>
+          <label for="messageReason">Message Reason:</label><br>
+          <select for="messageReason" name="messageReason">
+            <option value="productReviewRequest">Product Review Request</option>
+            <option value="newsStory">News Story Request/Information</option>
+            <option value="businessInquiry">Business Inquiry</option>
+            <option value="careers">Careers Inquiry</option>
+            <option value="other">Other</option>
+          </select><br>
+          <label for="message">Message:</label><br>
+          <textarea value="message" required></textarea><br>
+          <input type="submit" for="submit">
         </form>
       </div>
     </div>
