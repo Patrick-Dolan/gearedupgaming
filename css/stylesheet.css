@@ -3,10 +3,14 @@
   padding-bottom: 50px;
   padding-top: 50px;
 }
-form {
+/*form {
   border: 1px solid grey;
   padding: 20px;
-}
+} */
 label {
   font-weight: bold;
+}
+#contactUsForm {
+  border: 1px solid grey;
+  padding: 20px;
 }
