@@ -1,5 +1,5 @@
 .row {
-  border: 2px solid blue;
+  border-top: 1px solid grey;
   padding-bottom: 50px;
   padding-top: 50px;
 }
