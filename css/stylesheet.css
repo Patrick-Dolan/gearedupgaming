@@ -14,9 +14,9 @@ label {
   border: 1px solid grey;
   padding: 20px;
 }
-#productReviews h2{
+#productReviews h2, p{
   text-align: center;
 }
-#gameStrategies h2{
+#gameStrategies h2, p{
   text-align: center;
 }
