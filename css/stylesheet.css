@@ -20,3 +20,6 @@ label {
 #gameStrategies h2, p{
   text-align: center;
 }
+.card-deck {
+  margin-top: 1em;
+}
