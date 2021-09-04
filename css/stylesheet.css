@@ -14,12 +14,15 @@ label {
   border: 1px solid grey;
   padding: 20px;
 }
-#productReviews h2, p{
+#productReviews h2{
   text-align: center;
 }
-#gameStrategies h2, p{
+#gameStrategies h2{
   text-align: center;
 }
 .card-deck {
   margin-top: 1em;
+}
+#footer {
+  text-align: center;
 }
