@@ -7,8 +7,8 @@
 ## Technologies Used
 
 * _HTML_
-* _CSS + Bootstrap4.5.3_
-* _Javascript + JQuery3.6.0_
+* _CSS/Bootstrap4.5.3_
+* _Javascript/JQuery3.6.0_
 
 ## Description
 
